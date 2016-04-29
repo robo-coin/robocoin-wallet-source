@@ -1,0 +1,22 @@
+obj/leveldb.o: leveldb.cpp leveldb.h serialize.h allocators.h version.h \
+ clientversion.h /tmp/robocoin/src/leveldb/include/leveldb/db.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/iterator.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/slice.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/status.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/options.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/write_batch.h util.h uint256.h \
+ netbase.h compat.h /tmp/robocoin/src/leveldb/include/leveldb/env.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/cache.h \
+ /tmp/robocoin/src/leveldb/include/leveldb/filter_policy.h \
+ /tmp/robocoin/src/leveldb/helpers/memenv/memenv.h
+leveldb.cpp leveldb.h serialize.h allocators.h version.h :
+ clientversion.h /tmp/robocoin/src/leveldb/include/leveldb/db.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/iterator.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/slice.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/status.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/options.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/write_batch.h util.h uint256.h :
+ netbase.h compat.h /tmp/robocoin/src/leveldb/include/leveldb/env.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/cache.h :
+ /tmp/robocoin/src/leveldb/include/leveldb/filter_policy.h :
+ /tmp/robocoin/src/leveldb/helpers/memenv/memenv.h :
